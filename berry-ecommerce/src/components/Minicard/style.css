@@ -1,0 +1,42 @@
+#minicardContainer{
+    margin: 0px 20px;
+    height: 425px;
+    width: 300px;
+    /* border: solid 1px black; */
+}
+#imgContainer{
+    display: flex;  
+    justify-content: center;
+
+}
+#view{
+    display: flex;
+    justify-content: center;
+    width: 280px;
+    height: 265px;
+    border-radius: 30px;
+    background: #EAEDF2;
+}
+#addToCart{
+    height: 42px;
+    width: 160px;
+    margin-top: 20px;
+}
+#title{
+    margin: 10px;
+    color: #000;
+font-family: Raleway;
+font-size: 23px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+#price{
+    color: #000;
+    font-family: Raleway;
+    margin: 10px;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}

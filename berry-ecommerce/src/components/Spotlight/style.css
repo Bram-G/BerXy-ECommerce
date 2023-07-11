@@ -1,0 +1,39 @@
+#spotlightContainer{
+    height: 35rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+#spotlightImage{
+    width: 45%;
+
+}
+.spotlightElipse{
+    position: absolute;
+    scale: 80%;
+    left: 4rem;
+}
+.spotlightWatch{
+    position: absolute;
+    scale: 80%;
+    left: 8.5rem;
+    top: 10.5rem;
+}
+#mottoText{
+    color: #000;
+font-family: Raleway;
+font-size: 70px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+#mottoText2{
+    font-size: 130px;
+    color: #316559;
+    font-weight: 700;
+}
+#spotlightTextBox{
+    align-items: center;
+    width: 50%;
+    display: flex;
+
+}

@@ -1,0 +1,19 @@
+.cardBarContainer{
+    margin: 0px 100px 50px 100px; 
+}
+.cardBarTitle{
+font-family: Raleway;
+font-size: 30px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+margin-bottom: 50px ;
+}
+#miniCardImg{
+    display: flex;
+    width: 250px;
+    height: 250px;
+}
+.cardBarCard{
+    display:flex;
+}

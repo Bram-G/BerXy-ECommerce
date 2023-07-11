@@ -1,0 +1,24 @@
+#learnMoreContainer{
+    background-image: url("./assets/Hero1.png");
+    background-size: cover;
+    width: 100%;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#learnMoreTitle{
+    color: #FFF;
+text-align: center;
+font-family: Raleway;
+font-size: 80px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+#learnMoreButton{
+    width: 160px;
+    height: 42px;
+    margin-top: 20px;
+}

@@ -4,21 +4,52 @@ import "./style.css";
 
 const Navbar = () => {
   return (
-    <div id="header" className="navbar navbar-expand-lg">
-      <div id="navbar" className="container-fluid">
-        <a id="name" className="nav-item" href="#mainContainer">
-          Bram Gibson
-        </a>
+    <div id="header">
+      <div id="topBar">
+        <div id="topBarItemsCenter">
+          <div id="discountText">25% Off Selected Items </div>
+          <div>
+            |
+            <a id="discountLink" href="#">
+              {" "}
+              Learn More
+            </a>
+          </div>
+        </div>
+        <div id="topBarItemsRight">
+          <div id="settings">
+
+            <div class="user-box">
+              <div class="user-id">
+                <div class="user-name">Language</div>
+                <div class="dropdown-arrow"></div>
+                <div class="dropdown-menu">
+                  <ul>
+                    <li>English</li>
+                    <li>Español</li>
+                    <li>Français</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div id="location">Location</div>
+          </div>
+        </div>
+      </div>
+      <div id="nav">
         <div id="items">
-          <a id="header-item" className="nav-item" href="#portfolio">
-            Portfolio
-          </a>
-          <a id="header-item" className="nav-item" href="#contactCon">
-            Contact
-          </a>
-          <a id="header-item" className="nav-item" href="#resumeCon">
-            Resume
-          </a>
+          <div className="titleItem">
+            BER<div id="xMarksTheSpot">X</div>Y
+          </div>
+          <div id="navigate">
+            <a className="nav-item" href="">
+              NEW
+            </a>
+            <a className="nav-item" href="">
+              COLLECTION
+            </a>
+          </div>
         </div>
       </div>
     </div>
