@@ -39,9 +39,11 @@ const Navbar = () => {
       </div>
       <div id="nav">
         <div id="items">
-          <div className="titleItem">
+          <div className="titleItem"> 
+          <a href="/home" className="titleItem"> 
             BER<div id="xMarksTheSpot">X</div>Y
-          </div>
+          </a>
+          </div> 
           <div id="navigate">
             <a className="nav-item" href="">
               NEW

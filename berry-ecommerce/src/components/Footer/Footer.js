@@ -14,6 +14,8 @@ import {
 const Footer = () => {
   return (
     <div className="footerContainer">
+      <div id="containerContainer">
+        <div id="topContainer">
       <div id="connectContainer">
         <div id="connect">
           <div className="containerTitle">Connect with Us</div>
@@ -72,6 +74,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
+      </div>
       <div id="lineBreak"></div>
       <div id="bottomContainer">
         <div id="leftContainer">
@@ -116,6 +119,7 @@ const Footer = () => {
             </ul>
           </div>
         </div>
+      </div>
       </div>
     </div>
   );

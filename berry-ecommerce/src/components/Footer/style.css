@@ -1,6 +1,12 @@
 .footerContainer {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
+}
+#containerContainer{
+  display: flex;
+  flex-direction: column;
+  width: 80%;
 }
 #connectContainer {
   width: 50%;
@@ -34,27 +40,30 @@
 #bottomContainer {
   display: flex;
   width: 100%;
-  height: 400px;
+  height: 250px;
+  margin-top: 20px;
+}
+#topContainer {
+  display: flex;
+  width: 100%;
+  height: 220px;
 }
 #leftContainer {
   display: flex;
   flex-direction: column;
   width: 33.33%;
-  height: 400px;
   background-color: white;
 }
 #centerContainer {
     flex-direction: column;
   display: flex;
   width: 33.33%;
-  height: 400px;
   background-color: white;
 }
 #rightContainer {
     flex-direction: column;
   display: flex;
   width: 33.33%;
-  height: 400px;
   background-color: white;
 }
 .containerTitle{
@@ -69,8 +78,6 @@ margin-left: 20px;
 #lineBreak{
     border-bottom: 1px solid gray;
     width: 100%;
-    margin-left: 20px;
-    margin-right: 20px;
 }
 #aboutUs{
     display: flex;
