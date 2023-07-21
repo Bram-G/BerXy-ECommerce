@@ -29,7 +29,8 @@ function WatchPage() {
         name={watchData.name}
         description={watchData.description}
         mainImage={watchData.mainImage}
-        images={watchData.images}
+        image1={watchData.images[0]}
+        image2={watchData.images[1]}
         price={watchData.price}
       />
     </div>
