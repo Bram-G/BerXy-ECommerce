@@ -24,13 +24,12 @@ function WatchPage() {
 
   return (
     <div>
-      <h1>Watch Page</h1>
       <WatchCard
         name={watchData.name}
         description={watchData.description}
         mainImage={watchData.mainImage}
-        image1={watchData.images[0]}
-        image2={watchData.images[1]}
+        image1={watchData.image1}
+        image2={watchData.image2}
         price={watchData.price}
       />
     </div>

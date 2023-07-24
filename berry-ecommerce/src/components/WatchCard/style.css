@@ -1,24 +1,28 @@
 #watchCardContainer{
     display: flex;
+    /* margin-left: 100px; */
 
 }
 #watchCardImgContainer{
     display: flex;
     justify-content: center;
     width:50%;
+    width: 600px;
+    height: 500px;
+    margin: 20px 0px 50px 100px;
 }
 #watchCardview{
     display: flex;
-    height: 600px;
+    height: 500px;
     width: 600px;
-    background-color: black;
     justify-content: center;
     align-items: center;
 
 }
 #watchCardImg{
     display: flex;
-    height: 500px;
+height: 100%;
+width: 100%;
 
 }
 #infoContainer{
@@ -28,14 +32,44 @@
     padding: 20px;
 }
 #underWatchContainer{
-    display: flex;
+    /* display: flex; */
     justify-content: space-between;
-    padding: 20px;
+    flex-wrap: wrap;
 }
 #underWatchMoreImages{
-    display:flex;
+    /* display:flex; */
+    width: 100%;
+
 }
 #moreImageCon{
     display:flex;
-    
+    margin-left: 100px;
+}
+#moreImage{
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+}
+#underWatchTitle{
+    margin-left: 90px;
+}
+#description{
+    font-family: Raleway;
+}
+#boxBreak{
+    height: 100px;
+}
+#cartOptions a{
+    width: 160px;
+
+}
+#addToCartw{
+    height: 42px;
+    width: 160px;
+    margin-left: 100px;
+}
+#trade{
+    height: 42px;
+    width: 160px;
+    margin-left: 100px;
 }

@@ -19,11 +19,11 @@ const Navbar = () => {
         <div id="topBarItemsRight">
           <div id="settings">
 
-            <div class="user-box">
-              <div class="user-id">
-                <div class="user-name">Language</div>
-                <div class="dropdown-arrow"></div>
-                <div class="dropdown-menu">
+            <div className="user-box">
+              <div className="user-id">
+                <div className="user-name">Language</div>
+                <div className="dropdown-arrow"></div>
+                <div className="dropdown-menu">
                   <ul>
                     <li>English</li>
                     <li>Español</li>
