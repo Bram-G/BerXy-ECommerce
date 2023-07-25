@@ -10,6 +10,9 @@ const API = {
     getWatchByBrand: (brand) => {
         return fetch(`${URL_PREFIX}api/watches/brand/${brand}`).then(res => res.json())
     },
+    getRandomWatch: () => {
+        return fetch(`${URL_PREFIX}api/random`).then(res => res.json())
+    }
 }
 
 export default API;

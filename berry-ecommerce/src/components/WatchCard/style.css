@@ -8,12 +8,12 @@
     justify-content: center;
     width:50%;
     width: 600px;
-    height: 500px;
-    margin: 20px 0px 50px 100px;
+    height: 600px;
+    margin: 0px 0px 50px 100px;
 }
 #watchCardview{
     display: flex;
-    height: 500px;
+    height: 600px;
     width: 600px;
     justify-content: center;
     align-items: center;
@@ -56,9 +56,7 @@ width: 100%;
 #description{
     font-family: Raleway;
 }
-#boxBreak{
-    height: 100px;
-}
+
 #cartOptions a{
     width: 160px;
 
@@ -67,6 +65,29 @@ width: 100%;
     height: 42px;
     width: 160px;
     margin-left: 100px;
+    text-decoration: none;
+    border-radius: 36px;
+    color: #000;
+font-family: Raleway;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+    background-color: #EAEDF2;
+    transition: 0.2s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#addToCartw:hover{
+    background-color: #316559;
+    color: white;
+    
+}
+#addToCart2{
+    position: absolute;
+        height: 42px;
+        width: 160px;
 }
 #trade{
     height: 42px;

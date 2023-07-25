@@ -27,6 +27,7 @@ function WatchPage() {
       <WatchCard
         name={watchData.name}
         description={watchData.description}
+        brand={watchData.brand}
         mainImage={watchData.mainImage}
         image1={watchData.image1}
         image2={watchData.image2}
