@@ -7,8 +7,8 @@ const Spotlight = () => {
   return (
     <div id="spotlightContainer">
       <div id="spotlightImage">
-        <img className="spotlightElipse" src={Elipse2}></img>
-        <img className="spotlightWatch" src={Watch1}></img>
+        <img className="spotlightElipse" src={Elipse2} alt="Elipse styling"></img>
+        <img className="spotlightWatch" src={Watch1} alt="image of watch"></img>
       </div>
       <div id="spotlightTextBox">
         <div id="mottoText">

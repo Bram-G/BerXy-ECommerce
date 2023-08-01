@@ -1,0 +1,15 @@
+#collectionPage {
+
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+#collectionBox {
+    /* background-color: aqua; */
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+#collectionWatches{
+  width: 80%;
+}

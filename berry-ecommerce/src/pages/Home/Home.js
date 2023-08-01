@@ -7,7 +7,6 @@ import LearnMore from "../../learnMore/LearnMore";
 function Home() {
   return (
     <div>
-      <script src="owlcarousel/owl.carousel.min.js"></script>  
       <Spotlight />
       <CardBar/>
       <LearnMore/>

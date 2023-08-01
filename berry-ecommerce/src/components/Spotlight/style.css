@@ -13,6 +13,8 @@
     left: 4rem;
 }
 .spotlightWatch{
+    height: 500px;
+    width: 430px;
     position: absolute;
     scale: 80%;
     left: 8.5rem;
@@ -36,4 +38,16 @@ line-height: normal;
     width: 50%;
     display: flex;
 
+}
+
+@media screen and (max-width:1280px){
+    #spotlightImage{
+        width: 20%;
+        display: none;
+        visibility: hidden;
+    }
+    #spotlightTextBox{
+        justify-content: center;
+        width: 100%;
+    }
 }

@@ -7,7 +7,7 @@ const CardBar = () => {
   const [watchData, setWatchData] = useState([]);
 
   useEffect(() => {
-    const getManyWatches = async () => {
+    const getManyRandomWatches = async () => {
       try {
         const data = await API.getRandomWatch();
         setWatchData(data);
@@ -16,7 +16,7 @@ const CardBar = () => {
         console.log(error);
       }
     };
-    getManyWatches();
+    getManyRandomWatches();
   }, []);
   return (
     <div className="cardBarContainer">
@@ -29,7 +29,7 @@ const CardBar = () => {
             name={watch.name}
             price={watch.price}
             mainImage={watch.mainImage}
-            image1={watch.mainImage}
+            image1={watch.image1}
           />
         ))}
       </div>

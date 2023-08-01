@@ -62,15 +62,17 @@ const Footer = () => {
         <div className="containerTitle">Featured Watches</div>
         <div id="featuredWatchContent">
           <div id="watchList">
-            <div>D. Dornblüth & Sohn</div>
+            <div>Grand Seiko</div>
             <div>Seiko</div>
-            <div>Credor</div>
+            <div>TRILOBE</div>
+            <div>Nomos</div>
 
           </div>
           <div id="watchList2">
-          <div>Breguet</div>
-            <div>Kurano</div>
-            <div>Farer</div>
+          <div>TAG Heuer</div>
+            <div>Vulcain</div>
+            <div>OMEGA</div>
+            <div>Breitling</div>
           </div>
         </div>
       </div>
@@ -82,12 +84,9 @@ const Footer = () => {
           <div id="aboutUs">
             <div id="aboutUsContent">
               <ul className="listItems">
-                <li className="listItemSetting">teehee</li>
-                <li className="listItemSetting">teehee</li>
-                <li className="listItemSetting">teehee</li>
-                <li className="listItemSetting">teehee</li>
-                <li className="listItemSetting">teehee</li>
-                <li className="listItemSetting">teehee</li>
+                <li className="listItemSetting">Fake Watch Retailer</li>
+                <li className="listItemSetting">Assets From&nbsp;<a href="https://shop.hodinkee.com/"> Hodinkee</a> </li>
+                <li className="listItemSetting">and&nbsp;<a href="https://www.grand-seiko.com/us-en/collections"> Grand Seiko</a></li>
               </ul>
             </div>
           </div>
@@ -96,12 +95,9 @@ const Footer = () => {
           <div className="containerTitle">Location</div>
           <div id="locationContent">
             <ul className="listItems">
-              <li className="listItemSetting">teehee</li>
-              <li className="listItemSetting">teehee</li>
-              <li className="listItemSetting">teehee</li>
-              <li className="listItemSetting">teehee</li>
-              <li className="listItemSetting">teehee</li>
-              <li className="listItemSetting">teehee</li>
+              <li className="listItemSetting">1010 Thirtyfive Lane</li>
+              <li className="listItemSetting">Movement Township</li>
+              <li className="listItemSetting">Watchington, 12345</li>
             </ul>
           </div>
         </div>

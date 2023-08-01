@@ -48,7 +48,7 @@ const Navbar = () => {
             <a className="nav-item" href="">
               NEW
             </a>
-            <a className="nav-item" href="">
+            <a className="nav-item" href="/collection">
               COLLECTION
             </a>
           </div>

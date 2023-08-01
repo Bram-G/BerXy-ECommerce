@@ -21,6 +21,24 @@
     height: 42px;
     width: 160px;
     margin-top: 20px;
+    text-decoration: none;
+    border-radius: 36px;
+    color: #000;
+font-family: Raleway;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+    background-color: #EAEDF2;
+    transition: 0.2s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#addToCart:hover{
+    background-color: #316559;
+    color: white;
+    scale: 1.02;
 }
 #miniCardImg{
     display: flex;
@@ -29,6 +47,7 @@
  max-width: 250px;
  max-height: 250px;
  border-radius: 30px;
+ 
 }
 #watchTitle{
     margin: 10px;
@@ -52,4 +71,12 @@ line-height: normal;
     height: 75px;
     overflow: hidden;
     text-overflow: ellipsis;
+}
+.image-with-hover{
+  opacity: 1;
+  transition: all .3s ease;
+}
+.image-with-hover.hovered {
+  opacity: 0.9;
+  scale: 1.02;
 }

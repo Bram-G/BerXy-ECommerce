@@ -5,6 +5,7 @@ import Home from './pages/Home/Home';
 import WatchPage from './pages/WatchPage/WatchPage';
 import 'bootstrap/dist/css/bootstrap.min.css'
 import './App.css';
+import Collection from './pages/Collection/Collection';
 
 
 
@@ -17,6 +18,7 @@ function App() {
       <Route path={"/"} element={<Home/>}/>
       <Route path="*" element={<Navigate to="/"/>} />
       <Route path={`/watch/:id`} element={<WatchPage/>}/>
+      <Route path={`/collection`} element={<Collection/>}/>
     </Routes>
     <Footer/>
     

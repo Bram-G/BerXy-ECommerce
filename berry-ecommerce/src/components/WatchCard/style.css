@@ -64,7 +64,7 @@ width: 100%;
 #addToCartw{
     height: 42px;
     width: 160px;
-    margin-left: 100px;
+    /* margin-left: 100px; */
     text-decoration: none;
     border-radius: 36px;
     color: #000;
