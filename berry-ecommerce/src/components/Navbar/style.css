@@ -5,6 +5,7 @@
   font-family: raleway;
   font-size: 1rem;
   color: #316559;
+  align-items: center;
 }
 .titleItem {
   display: flex;
@@ -82,6 +83,11 @@
 #location {
     margin: 0px 20px;
   display: flex;
+}
+#cartIcon{
+  display: flex;
+  margin-left: 10px;
+
 }
 
 

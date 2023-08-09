@@ -6,6 +6,7 @@ import WatchPage from './pages/WatchPage/WatchPage';
 import 'bootstrap/dist/css/bootstrap.min.css'
 import './App.css';
 import Collection from './pages/Collection/Collection';
+import Cart from './pages/Cart/Cart';
 
 
 
@@ -19,6 +20,7 @@ function App() {
       <Route path="*" element={<Navigate to="/"/>} />
       <Route path={`/watch/:id`} element={<WatchPage/>}/>
       <Route path={`/collection`} element={<Collection/>}/>
+      <Route path={`/cart`} element={<Cart/>}/>
     </Routes>
     <Footer/>
     

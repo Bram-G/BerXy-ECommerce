@@ -1,0 +1,81 @@
+#cartPage{
+    display: flex;
+    justify-content: center;
+
+}
+
+#cartBox{
+    display: flex;
+    width: 80%;
+    flex-direction: column;
+}
+#cartWatches{
+    width: 100%;    
+}
+#breakLine{
+    width: 100%;
+    height: 1px;
+    background-color: #EAEDF2;
+    margin: 20px 0px;
+}
+#cartSummary{
+    display: flex;
+    justify-content: flex-end;
+    margin: 0px 0px;
+}
+#cartSummaryBox{
+    display: flex;
+    width: 30%;
+    flex-direction: column;
+    align-items: center;
+}
+#cartSummaryTitle{
+    color: #000;
+font-family: Raleway;
+font-size: 48px;
+}
+#cartInfoBox{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin: 20px 0px;
+    flex-direction: column;
+    align-items: center;
+}
+.infoStyling{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 95%;
+    border-radius: 20px;
+    margin: 0px;
+    color: #000;
+font-family: Raleway;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+padding: 5px;
+}
+.infoSpan{
+    margin: 0px 10px;
+    font-size: larger;
+}
+#cartInfoCheckoutButton{
+    height: 42px;
+    width: 200px;
+    text-decoration: none;
+    border-radius: 36px;
+    color: #000;
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    background-color: #EAEDF2;
+    transition: 0.2s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+}

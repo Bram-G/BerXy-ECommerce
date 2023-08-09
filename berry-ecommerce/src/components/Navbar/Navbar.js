@@ -1,8 +1,21 @@
 import React from "react";
+import { UilShoppingCart  } from "@iconscout/react-unicons";
 
 import "./style.css";
 
 const Navbar = () => {
+
+  const [cartNumber, setCartNumber] = React.useState(0);
+
+  React.useEffect(() => {
+    const cartWatchesArray = JSON.parse(localStorage.getItem("cart"));
+    if (cartWatchesArray) {
+      setCartNumber(cartWatchesArray.length);
+    }
+
+  })
+  
+
   return (
     <div id="header">
       <div id="topBar">
@@ -45,11 +58,11 @@ const Navbar = () => {
           </a>
           </div> 
           <div id="navigate">
-            <a className="nav-item" href="">
-              NEW
-            </a>
             <a className="nav-item" href="/collection">
               COLLECTION
+            </a>
+            <a className="nav-item" href="/cart">
+              CART  <UilShoppingCart id="cartIcon" size={30}/><span id="cartNumber">{cartNumber}</span> 
             </a>
           </div>
         </div>

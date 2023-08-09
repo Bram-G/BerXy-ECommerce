@@ -16,6 +16,21 @@ const Minicard = (props) => {
       setHovered(false);
     };
 
+    
+    const handleCartAdd = () => {
+      SaveDataToLocalStorage(props.id)
+    }
+    function SaveDataToLocalStorage(data)
+    {
+        var watchArray = [];
+        // Parse the serialized data back into an aray of objects
+        watchArray = JSON.parse(localStorage.getItem('cart')) || [];
+        // Push the new data (whether it be an object or anything else) onto the array
+        watchArray.push([data]);
+        // Re-serialize the array back into a string and store it in localStorage
+        localStorage.setItem('cart', JSON.stringify(watchArray));
+    }
+
 
   return (
     <div id="minicardContainer">
@@ -35,7 +50,7 @@ const Minicard = (props) => {
         <div id="price">${props.price}</div>
       </div>
       <div>
-        <a href="#">
+        <a href="/cart" onClick={handleCartAdd}>
           {/* <img id="addToCart" src={AddToCart}></img> */}
         <div id="addToCart">Add to Cart</div>
         </a>

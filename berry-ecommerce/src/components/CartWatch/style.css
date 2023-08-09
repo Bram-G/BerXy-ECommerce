@@ -1,0 +1,130 @@
+.cartWatchContainer{
+    display: flex;
+    background: rgba(49, 101, 89, 0.05);
+    border-radius: 20px;
+    height: 300px;
+    width: 100%;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+}
+.cartWatchImgContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cartWatchImg{
+    border-radius: 20px;
+    padding: 10px;
+    height: 100%;
+}
+.cartWatchInfoContainer{
+
+    display: flex;
+    width: 400px;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+.cartWatchName{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    background: rgb(255, 255, 255);
+    width: 95%;
+    border-radius: 20px;
+    margin: 0px;
+    color: #000;
+font-family: Raleway;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+padding: 5px;
+
+}
+
+.cartWatchBrand{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    background: rgba(43, 88, 78, 0.05);
+    width: 95%;
+    border-radius: 20px;
+    margin: 0px;
+    color: #000;
+font-family: Raleway;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+padding: 5px;
+}
+
+.cartWatchPrice{  
+    display: flex;
+    align-items: center;
+    height: 100%;  
+    background: rgb(255, 255, 255);
+    width: 95%;
+    border-radius: 20px;
+    color: #000;
+    font-family: Raleway;
+    margin: 0px 10px;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding: 5px;
+}
+.deleteButton{
+        height: 42px;
+        width: 160px;
+        margin-top: 20px;
+        text-decoration: none;
+        border-radius: 36px;
+        color: #000;
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+        background-color: #EAEDF2;
+        transition: 0.2s;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: none;
+    }
+
+    .deleteButton:hover{
+        background-color: #316559;
+        color: white;
+        scale: 1.02;
+    }
+    .deleteContainer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #cartNumber{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        background-color: #EAEDF2;
+        margin: 10px;
+        color: #000;
+    }
+    .infoBox{
+        /* background: rgba(43, 88, 78, 0.05); */
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    align-items: center;
+    height: 60%;
+    justify-content: space-around;
+    border-radius: 20px;
+    }
