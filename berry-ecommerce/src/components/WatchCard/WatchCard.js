@@ -16,6 +16,26 @@ const WatchCard = (props) => {
     setHeroImage(event.target.src);
   }
 
+  const handleCartAdd = () => {
+    SaveDataToLocalStorage(props.id)
+  }
+  function SaveDataToLocalStorage(data)
+  {
+      var watchArray = [];
+      // Parse the serialized data back into an aray of objects
+      watchArray = JSON.parse(localStorage.getItem('cart')) || [];
+      // Push the new data (whether it be an object or anything else) onto the array
+      watchArray.push([data]);
+      // Re-serialize the array back into a string and store it in localStorage
+      localStorage.setItem('cart', JSON.stringify(watchArray));
+  }
+
+  const image1 = props.image1
+  const image2 = props.image2
+
+  const shouldRenderImg1 = !!image1
+  const shouldRenderImg2 = !!image2
+
   return (
     <div>
       <div id="watchCardContainer">
@@ -44,7 +64,7 @@ const WatchCard = (props) => {
           <div id="watchCardDescription">{props.description}</div>
           <div id="boxBreak"></div>
           <div id="cartOptions">
-            <a href="#">
+            <a href="/cart" onClick={handleCartAdd}>
               <div id="addToCartw"> Add To Cart</div>
               {/* <img id="addToCartw" src={AddToCart}></img>
               <img id="addToCart2" src={AddToCart2}></img> */}
@@ -68,14 +88,19 @@ const WatchCard = (props) => {
               alt="WatchcardImg"
               />
               </a>
+            {shouldRenderImg1 && (
               <a href="#">
-            <img
+              <img
               id="moreImage"
               onClick={handleHeroImage}
               src={props.image1}
               alt="WatchcardImg"
-            />
-            </a>
+              />
+              </a>
+            )}
+
+            {shouldRenderImg2 && (
+
             <a href="#">
 
             <img
@@ -85,6 +110,7 @@ const WatchCard = (props) => {
               alt="WatchcardImg"
               />
               </a>
+            )}
           </div>
         </div>
         <div id="underWatchCardBar">

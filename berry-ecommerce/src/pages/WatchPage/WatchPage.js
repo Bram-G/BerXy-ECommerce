@@ -25,6 +25,7 @@ function WatchPage() {
   return (
     <div>
       <WatchCard
+      id={watchData._id}
         name={watchData.name}
         description={watchData.description}
         brand={watchData.brand}

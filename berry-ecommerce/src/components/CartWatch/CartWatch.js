@@ -29,7 +29,8 @@ const CartWatch = (props) => {
           localStorage.setItem('cart', JSON.stringify(watchArray));
           window.location.reload();
         } else {
-          console.log("ID not found in cart.");
+          localStorage.removeItem("cart")
+          window.location.reload();
         }
       }
       
