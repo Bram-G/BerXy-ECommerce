@@ -38,45 +38,10 @@ const WatchCard = (props) => {
 
   return (
     <div>
+              
       <div id="watchCardContainer">
-        <div id="watchCardImgContainer">
-          <div id="watchCardview">
-            <ReactImageMagnify {...{
-                smallImage: {
-                  alt: "Wristwatch by Ted Baker London",
-                  isFluidWidth: true,
-                  src: heroImage,
-                },
-                largeImage: {
-                  src: heroImage,
-                  width: 2038,
-                  height: 2038,
-                },
-              }}
-            />
-            {/* <img id="watchCardImg" src={heroImage} alt="WatchcardImg" /> */}
-          </div>
-        </div>
-        <div id="infoContainer">
-          <div id="title">{props.name}</div>
-          <div id="watchCardBrand">{props.brand}</div>
-          <div id="watchCardPrice">${props.price}</div>
-          <div id="watchCardDescription">{props.description}</div>
-          <div id="boxBreak"></div>
-          <div id="cartOptions">
-            <a href="/cart" onClick={handleCartAdd}>
-              <div id="addToCartw"> Add To Cart</div>
-              {/* <img id="addToCartw" src={AddToCart}></img>
-              <img id="addToCart2" src={AddToCart2}></img> */}
-            </a>
-            {/* <img id="trade" src={AddToCart}></img> */}
-          </div>
-        </div>
-      </div>
-      <div id="underWatchContainer">
-        <div id="underWatchMoreImages">
+      <div id="underWatchMoreImages">
           <div id="underWatchTitle">
-            <div id="title">More Images</div>
           </div>
           <div id="moreImageCon">
             <a href="#">
@@ -113,11 +78,42 @@ const WatchCard = (props) => {
             )}
           </div>
         </div>
+        <div id="watchCardImgContainer">
+          <div id="watchCardview">
+            <ReactImageMagnify {...{
+                smallImage: {
+                  alt: "Wristwatch by Ted Baker London",
+                  isFluidWidth: true,
+                  src: heroImage,
+                },
+                largeImage: {
+                  src: heroImage,
+                  width: 2038,
+                  height: 2038,
+                },
+              }}
+            />
+          </div>
+        </div>
+        <div id="infoContainer">
+          <div id="title">{props.name}</div>
+          <div id="watchCardBrand">{props.brand}</div>
+          <div id="watchCardPrice">${props.price}</div>
+          <div id="watchCardDescription">{props.description}</div>
+          <div id="boxBreak"></div>
+          <div id="cartOptions">
+            <a href="/cart" onClick={handleCartAdd}>
+              <div id="addToCartw"> Add To Cart</div>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div id="underWatchContainer">
+
         <div id="underWatchCardBar">
           <CardBar />
         </div>
       </div>
-      <div />
     </div>
   );
 };

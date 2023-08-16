@@ -11,10 +11,13 @@ const LearnMore = () => {
       </video>
       <div id="learnMoreTitle">Timeless Elegance,<br></br> Crafted for Excellence</div>
       <div id="learnMoreButton">
+        <a id= "aboutButton"href="/collection">
+
         <div id="buttonText">
 
-         Learn More
+         Collection
         </div>
+        </a>
         {/* <img id="learnMoreButton" src={Button1}></img> */}
       </div>
     </div>

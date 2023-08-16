@@ -15,6 +15,8 @@ const Footer = () => {
   return (
     <div className="footerContainer">
       <div id="containerContainer">
+      <div id="lineBreak"></div>
+
         <div id="topContainer">
       <div id="connectContainer">
         <div id="connect">
@@ -55,24 +57,6 @@ const Footer = () => {
             >
               <UilSnapchatSquare size={40} color="black" />
             </a>
-          </div>
-        </div>
-      </div>
-      <div id="featuredWatches">
-        <div className="containerTitle">Featured Watches</div>
-        <div id="featuredWatchContent">
-          <div id="watchList">
-            <div>Grand Seiko</div>
-            <div>Seiko</div>
-            <div>TRILOBE</div>
-            <div>Nomos</div>
-
-          </div>
-          <div id="watchList2">
-          <div>TAG Heuer</div>
-            <div>Vulcain</div>
-            <div>OMEGA</div>
-            <div>Breitling</div>
           </div>
         </div>
       </div>

@@ -30,7 +30,7 @@ const Navbar = () => {
           </div>
         </div>
         <div id="topBarItemsRight">
-          <div id="settings">
+          {/* <div id="settings">
 
             <div className="user-box">
               <div className="user-id">
@@ -47,7 +47,7 @@ const Navbar = () => {
             </div>
 
             <div id="location">Location</div>
-          </div>
+          </div> */}
         </div>
       </div>
       <div id="nav">

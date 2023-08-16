@@ -2,9 +2,7 @@ import { React, useState, useEffect } from "react";
 import "./style.css";
 import API from "../../utils/API";
 
-import Spotlight from "../../components/Spotlight/Spotlight";
 import CollectionCardBar from "../../components/CollectionCardBar/CollectionCardBar";
-import LearnMore from "../../learnMore/LearnMore";
 
 function Collection() {
 

@@ -79,3 +79,8 @@ padding: 5px;
     justify-content: center;
     border: none;
 }
+
+#cartInfoCheckoutButton:hover{
+    background-color: #316559;
+    color: white;
+}

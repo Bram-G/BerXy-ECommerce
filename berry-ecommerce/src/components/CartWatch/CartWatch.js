@@ -3,6 +3,10 @@ import "./style.css"
 
 const CartWatch = (props) => {
 
+  function handleVisit() {
+    window.location.href=`/watch/${props.id}`
+  }
+
     function handleRemove() {
         const cartData = localStorage.getItem("cart");
         let watchArray = [];
@@ -37,7 +41,8 @@ const CartWatch = (props) => {
     return(
         <div className="cartWatchContainer">
             <div className="cartWatchImgContainer">
-                <img className="cartWatchImg" src={props.mainImage} alt="cartWatchImg"></img>
+                <img className="cartWatchImg" src={props.mainImage} onClick={handleVisit} alt="cartWatchImg"></img>
+            
             </div>
             <div className="cartWatchInfoContainer">
                 <div className="infoBox">
@@ -47,6 +52,7 @@ const CartWatch = (props) => {
                 </div>
             <div className="deleteContainer">
             <button className="deleteButton" onClick={handleRemove}>Remove</button>
+            <button className="deleteButton" onClick={handleVisit}> View Item</button>
             </div>
             </div>
         </div>

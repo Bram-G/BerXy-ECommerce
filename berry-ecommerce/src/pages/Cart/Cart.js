@@ -13,6 +13,10 @@ function Cart() {
   var cartArray = [];
   var priceArray = [];
 
+  function handleCheckout() {
+    alert("This is a demo ecommerce site. No purchases can be made.")
+
+  }
 
   async function processLocalStorageData() {
     var priceArray = [];
@@ -98,7 +102,7 @@ function Cart() {
               <div className="infoStyling" id="cartInfoTotal">Total:<span className="infoSpan">${cartTotal}</span></div>
               <div id="breakLine"></div>
             </div>
-              <button id="cartInfoCheckoutButton"><UilShoppingCart></UilShoppingCart> Checkout</button>
+              <button id="cartInfoCheckoutButton" onClick={handleCheckout}><UilShoppingCart></UilShoppingCart> Checkout</button>
           </div>
         </div>
       </div>

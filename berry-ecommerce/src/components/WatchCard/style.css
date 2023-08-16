@@ -1,5 +1,6 @@
 #watchCardContainer{
     display: flex;
+    justify-content: space-evenly;
     /* margin-left: 100px; */
 
 }
@@ -9,7 +10,7 @@
     width:50%;
     width: 600px;
     height: 600px;
-    margin: 0px 0px 50px 100px;
+    margin: 0px 0px 50px 0px;
 }
 #watchCardview{
     display: flex;
@@ -28,7 +29,7 @@ width: 100%;
 #infoContainer{
     display: flex;
     flex-direction: column;
-    width: 50%;
+    width: 40%; 
     padding: 20px;
 }
 #underWatchContainer{
@@ -37,21 +38,21 @@ width: 100%;
     flex-wrap: wrap;
 }
 #underWatchMoreImages{
-    /* display:flex; */
-    width: 100%;
+display: flex;
+    /* width: 15%; */
+    justify-content: center;
 
 }
 #moreImageCon{
     display:flex;
-    margin-left: 100px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
 }
 #moreImage{
-    width: 200px;
-    height: 200px;
-    margin: 20px;
-}
-#underWatchTitle{
-    margin-left: 90px;
+    width: 150px;
+    height: 150px;
+
 }
 #description{
     font-family: Raleway;

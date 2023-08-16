@@ -16,7 +16,13 @@
     border-radius: 20px;
     padding: 10px;
     height: 100%;
+    transition: all 0.2s ease-in-out;
 }
+.cartWatchImg:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
 .cartWatchInfoContainer{
 
     display: flex;

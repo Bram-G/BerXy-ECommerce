@@ -56,3 +56,8 @@ overflow: auto;
     display: flex;
     align-items: center;
   }
+
+  #aboutButton{
+    display: flex;
+    align-items: center;   
+  }
