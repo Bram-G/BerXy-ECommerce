@@ -1,97 +1,94 @@
-#watchCardContainer{
-    display: flex;
-    justify-content: space-evenly;
-    /* margin-left: 100px; */
-
+#watchCardContainer {
+  display: flex;
+  justify-content: space-evenly;
+  /* margin-left: 100px; */
 }
-#watchCardImgContainer{
-    display: flex;
-    justify-content: center;
-    width:50%;
-    width: 600px;
-    height: 600px;
-    margin: 0px 0px 50px 0px;
+#watchCardImgContainer {
+  display: flex;
+  justify-content: center;
+  width: 50%;
+  width: 600px;
+  height: 600px;
+  margin: 0px 0px 50px 0px;
 }
-#watchCardview{
-    display: flex;
-    height: 600px;
-    width: 600px;
-    justify-content: center;
-    align-items: center;
-
+#watchCardview {
+  display: flex;
+  height: 600px;
+  width: 600px;
+  justify-content: center;
+  align-items: center;
 }
-#watchCardImg{
-    display: flex;
-height: 100%;
-width: 100%;
-
+#watchCardImg {
+  display: flex;
+  height: 100%;
+  width: 100%;
 }
-#infoContainer{
-    display: flex;
-    flex-direction: column;
-    width: 40%; 
-    padding: 20px;
+#infoContainer {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  padding: 20px;
 }
-#underWatchContainer{
-    /* display: flex; */
-    justify-content: space-between;
-    flex-wrap: wrap;
+#underWatchContainer {
+  /* display: flex; */
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
-#underWatchMoreImages{
-display: flex;
-    /* width: 15%; */
-    justify-content: center;
-
+#underWatchMoreImages {
+  display: flex;
+  /* width: 15%; */
+  justify-content: center;
 }
-#moreImageCon{
-    display:flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-evenly;
+#moreImageCon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
 }
-#moreImage{
-    width: 150px;
-    height: 150px;
-
-}
-#description{
-    font-family: Raleway;
+#moreImage {
+  width: 150px;
+  height: 150px;
 }
 
-#cartOptions a{
-    width: 160px;
+#moreImage:hover {
+  cursor: pointer;
+}
+#description {
+  font-family: Raleway;
+}
 
+#cartOptions a {
+  width: 160px;
 }
-#addToCartw{
-    height: 42px;
-    width: 160px;
-    /* margin-left: 100px; */
-    text-decoration: none;
-    border-radius: 36px;
-    color: #000;
-font-family: Raleway;
-font-size: 18px;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
-    background-color: #EAEDF2;
-    transition: 0.2s;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+#addToCartw {
+  height: 42px;
+  width: 160px;
+  /* margin-left: 100px; */
+  text-decoration: none;
+  border-radius: 36px;
+  color: #000;
+  font-family: Raleway;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  background-color: #eaedf2;
+  transition: 0.2s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-#addToCartw:hover{
-    background-color: #316559;
-    color: white;
-    
+#addToCartw:hover {
+  background-color: #316559;
+  color: white;
 }
-#addToCart2{
-    position: absolute;
-        height: 42px;
-        width: 160px;
+#addToCart2 {
+  position: absolute;
+  height: 42px;
+  width: 160px;
 }
-#trade{
-    height: 42px;
-    width: 160px;
-    margin-left: 100px;
+#trade {
+  height: 42px;
+  width: 160px;
+  margin-left: 100px;
 }

@@ -1,10 +1,7 @@
 import { React, useEffect, useState } from "react";
 import "./style.css";
-import AddToCart from "./assets/AddToCart.png";
 import CardBar from "../CardBar/CardBar";
-import API from "../../utils/API";
 import ReactImageMagnify from "react-image-magnify";
-import AddToCart2 from "./assets/AddToCart2.png";
 
 const WatchCard = (props) => {
   const [heroImage, setHeroImage] = useState();
@@ -17,70 +14,60 @@ const WatchCard = (props) => {
   }
 
   const handleCartAdd = () => {
-    SaveDataToLocalStorage(props.id)
-  }
-  function SaveDataToLocalStorage(data)
-  {
-      var watchArray = [];
-      // Parse the serialized data back into an aray of objects
-      watchArray = JSON.parse(localStorage.getItem('cart')) || [];
-      // Push the new data (whether it be an object or anything else) onto the array
-      watchArray.push([data]);
-      // Re-serialize the array back into a string and store it in localStorage
-      localStorage.setItem('cart', JSON.stringify(watchArray));
+    SaveDataToLocalStorage(props.id);
+  };
+  function SaveDataToLocalStorage(data) {
+    var watchArray = [];
+    // Parse the serialized data back into an aray of objects
+    watchArray = JSON.parse(localStorage.getItem("cart")) || [];
+    // Push the new data (whether it be an object or anything else) onto the array
+    watchArray.push([data]);
+    // Re-serialize the array back into a string and store it in localStorage
+    localStorage.setItem("cart", JSON.stringify(watchArray));
   }
 
-  const image1 = props.image1
-  const image2 = props.image2
+  const image1 = props.image1;
+  const image2 = props.image2;
 
-  const shouldRenderImg1 = !!image1
-  const shouldRenderImg2 = !!image2
+  const shouldRenderImg1 = !!image1;
+  const shouldRenderImg2 = !!image2;
 
   return (
     <div>
-              
       <div id="watchCardContainer">
-      <div id="underWatchMoreImages">
-          <div id="underWatchTitle">
-          </div>
+        <div id="underWatchMoreImages">
+          <div id="underWatchTitle"></div>
           <div id="moreImageCon">
-            <a href="#">
-
             <img
               id="moreImage"
               onClick={handleHeroImage}
               src={props.mainImage}
               alt="WatchcardImg"
-              />
-              </a>
+            />
+
             {shouldRenderImg1 && (
-              <a href="#">
               <img
-              id="moreImage"
-              onClick={handleHeroImage}
-              src={props.image1}
-              alt="WatchcardImg"
+                id="moreImage"
+                onClick={handleHeroImage}
+                src={props.image1}
+                alt="WatchcardImg"
               />
-              </a>
             )}
 
             {shouldRenderImg2 && (
-
-            <a href="#">
-
-            <img
-              id="moreImage"
-              onClick={handleHeroImage}
-              src={props.image2}
-              alt="WatchcardImg"
+              <img
+                id="moreImage"
+                onClick={handleHeroImage}
+                src={props.image2}
+                alt="WatchcardImg"
               />
-              </a>
             )}
           </div>
         </div>
         <div id="watchCardImgContainer">
           <div id="watchCardview">
-            <ReactImageMagnify {...{
+            <ReactImageMagnify
+              {...{
                 smallImage: {
                   alt: "Wristwatch by Ted Baker London",
                   isFluidWidth: true,
@@ -109,7 +96,6 @@ const WatchCard = (props) => {
         </div>
       </div>
       <div id="underWatchContainer">
-
         <div id="underWatchCardBar">
           <CardBar />
         </div>

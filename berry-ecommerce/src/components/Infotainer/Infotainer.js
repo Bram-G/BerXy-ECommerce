@@ -19,43 +19,43 @@ function Infotainer() {
           <div id="leftWatches">
             <div className="watchLogoContainer">
               {" "}
-              <a target="_blank" href="https://www.grand-seiko.com/us-en/"><img className="watchLogo" src={grandSeikoLogo} alt="Grand Seiko Logo"/></a>
+              <a target="_blank"  rel="noreferrer" href="https://www.grand-seiko.com/us-en/"><img className="watchLogo" src={grandSeikoLogo} alt="Grand Seiko Logo"/></a>
             </div>
             <div className="watchLogoContainer">
               {" "}
-              <a target="_blank" href="https://nomos-glashuette.com/en"><img className="watchLogo" src={nomosLogo} alt="NOMOS Logo"/></a>
+              <a target="_blank" rel="noreferrer" href="https://nomos-glashuette.com/en"><img className="watchLogo" src={nomosLogo} alt="NOMOS Logo"/></a>
             </div>
             <div className="watchLogoContainer">
               {" "}
-              <a target="_blank" href="https://trilobe.com/us/"><img className="watchLogo" src={trilobeLogo} alt="Trilobe Logo"/></a>
+              <a target="_blank" rel="noreferrer" href="https://trilobe.com/us/"><img className="watchLogo" src={trilobeLogo} alt="Trilobe Logo"/></a>
             </div>
           </div>
           <div id="centerWatches">
             <div className="watchLogoContainer">
               {" "}
-              <a target="_blank" href="https://vulcain.ch/"><img className="watchLogo" src={vulcainLogo} alt="Vulcain Logo"/></a>
+              <a target="_blank" rel="noreferrer" href="https://vulcain.ch/"><img className="watchLogo" src={vulcainLogo} alt="Vulcain Logo"/></a>
             </div>
             <div className="watchLogoContainer">
               {" "}
-              <a target="_blank" href="https://www.tagheuer.com/us/en/"><img className="watchLogo" src={tagLogo} alt="Tag Huer Logo"/></a>
+              <a target="_blank" rel="noreferrer" href="https://www.tagheuer.com/us/en/"><img className="watchLogo" src={tagLogo} alt="Tag Huer Logo"/></a>
             </div>
             <div className="watchLogoContainer">
               {" "}
-              <a target="_blank" href="https://www.blancpain.com/en"><img className="watchLogo" src={blancpainLogo} alt="BlancPain Logo"/></a>
+              <a target="_blank" rel="noreferrer" href="https://www.blancpain.com/en"><img className="watchLogo" src={blancpainLogo} alt="BlancPain Logo"/></a>
             </div>
           </div>
           <div id="rightWatches">
             <div className="watchLogoContainer">
               {" "}
-              <a target="_blank" href="https://www.breitling.com/us-en/"><img className="watchLogo" src={breitlingLogo} alt="Breitling Logo"/></a>
+              <a target="_blank" rel="noreferrer" href="https://www.breitling.com/us-en/"><img className="watchLogo" src={breitlingLogo} alt="Breitling Logo"/></a>
             </div>
             <div className="watchLogoContainer">
               {" "}
-              <a target="_blank" href="https://www.omegawatches.com/en-us/"><img className="watchLogo" src={omegaLogo} alt="Omega Logo"/></a>
+              <a target="_blank" rel="noreferrer" href="https://www.omegawatches.com/en-us/"><img className="watchLogo" src={omegaLogo} alt="Omega Logo"/></a>
             </div>
             <div className="watchLogoContainer">
               {" "}
-              <a target="_blank" href="https://seikousa.com/"><img className="watchLogo" src={seikoLogo} alt="Seiko Logo"/></a>
+              <a target="_blank" rel="noreferrer" href="https://seikousa.com/"><img className="watchLogo" src={seikoLogo} alt="Seiko Logo"/></a>
             </div>
           </div>
         </div>
