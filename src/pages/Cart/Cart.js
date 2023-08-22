@@ -60,7 +60,7 @@ function Cart() {
 
   useEffect(() => {
     processLocalStorageData();
-  }, [processLocalStorageData]);
+  },);
 
   return (
     <div id="cartPage">

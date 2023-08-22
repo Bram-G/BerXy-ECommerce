@@ -66,6 +66,8 @@
   align-items: center;
 }
 #discountLink{
+      border: none;
+    background: none;
     color: #fff;
     text-decoration: none;
 }

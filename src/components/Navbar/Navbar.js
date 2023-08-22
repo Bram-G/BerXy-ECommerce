@@ -10,8 +10,7 @@ const Navbar = () => {
     if (cartWatchesArray) {
       setCartNumber(cartWatchesArray.length);
     }
-  },
-    []);
+  },);
 
   return (
     <div id="header">
