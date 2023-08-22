@@ -8,7 +8,7 @@ const Spotlight = () => {
     <div id="spotlightContainer">
       <div id="spotlightImage">
         <img className="spotlightElipse" src={Elipse2} alt="Elipse styling"></img>
-        <img className="spotlightWatch" src={Watch1} alt="image of watch"></img>
+        <img className="spotlightWatch" src={Watch1} alt="watch"></img>
       </div>
       <div id="spotlightTextBox">
         <div id="mottoText">

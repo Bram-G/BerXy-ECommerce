@@ -20,7 +20,7 @@ function WatchPage() {
     };
 
     getWatch(params.id);
-  },[]);
+  },[params.id]);
 
   return (
     <div>

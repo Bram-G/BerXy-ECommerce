@@ -24,36 +24,41 @@ const Footer = () => {
           <div id="connectContent">
             <a
               target="_blank"
-              href={"https://github.com/Bram-G"}
               rel="noreferrer"
+              
+              href={"https://github.com/Bram-G"}
             >
               <UilFacebook size={40} color="black" />
             </a>
             <a
               target="_blank"
-              href={"https://www.linkedin.com/in/bram-g"}
               rel="noreferrer"
+              
+              href={"https://www.linkedin.com/in/bram-g"}
             >
               <UilInstagramAlt size={40} color="black" />
             </a>
             <a
               target="_blank"
-              href={"https://stackoverflow.com/users/21333322/bram-g"}
               rel="noreferrer"
+              
+              href={"https://stackoverflow.com/users/21333322/bram-g"}
             >
               <UilTwitter size={40} color="black" />
             </a>
             <a
               target="_blank"
-              href={"https://stackoverflow.com/users/21333322/bram-g"}
               rel="noreferrer"
+              
+              href={"https://stackoverflow.com/users/21333322/bram-g"}
             >
               <UilYoutube size={40} color="black" />
             </a>
             <a
               target="_blank"
-              href={"https://stackoverflow.com/users/21333322/bram-g"}
               rel="noreferrer"
+              
+              href={"https://stackoverflow.com/users/21333322/bram-g"}
             >
               <UilSnapchatSquare size={40} color="black" />
             </a>
@@ -92,9 +97,9 @@ const Footer = () => {
               <li className="listItemSettingTitle">Bram Gibson</li>
               <li className="listItemSetting">Fullstack Web Developer</li>
               <div id="createdIcons">
-              <li className="createdIcon"><a target="_blank" href="https://github.com/Bram-G"><UilGithub size={40} color="black"/></a></li>
-              <li className="createdIcon"><a target="_blank" href="https://www.linkedin.com/in/bram-g"><UilLinkedin size={40} color="black"/></a></li>
-              <li className="createdIcon"><a target="_blank" href="https://bramgibson.dev/"><UilBag size={40} color="black"/></a></li>
+              <li className="createdIcon"><a target="_blank" rel="noreferrer" href="https://github.com/Bram-G"><UilGithub size={40} color="black"/></a></li>
+              <li className="createdIcon"><a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/bram-g"><UilLinkedin size={40} color="black"/></a></li>
+              <li className="createdIcon"><a target="_blank" rel="noreferrer" href="https://bramgibson.dev/"><UilBag size={40} color="black"/></a></li>
               </div>
             </ul>
           </div>

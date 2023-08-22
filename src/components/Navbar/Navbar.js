@@ -1,20 +1,17 @@
-import React from "react";
-import { UilShoppingCart  } from "@iconscout/react-unicons";
-
+import react, { useEffect } from "react";
+import { UilShoppingCart } from "@iconscout/react-unicons";
 import "./style.css";
 
 const Navbar = () => {
+  const [cartNumber, setCartNumber] = react.useState(0);
 
-  const [cartNumber, setCartNumber] = React.useState(0);
-
-  React.useEffect(() => {
+  useEffect(() => {
     const cartWatchesArray = JSON.parse(localStorage.getItem("cart"));
     if (cartWatchesArray) {
       setCartNumber(cartWatchesArray.length);
     }
-
-  })
-  
+  },
+    []);
 
   return (
     <div id="header">
@@ -23,10 +20,10 @@ const Navbar = () => {
           <div id="discountText">25% Off Selected Items </div>
           <div>
             |
-            <a id="discountLink" href="#">
+            <button id="discountLink" href="#">
               {" "}
               Learn More
-            </a>
+            </button>
           </div>
         </div>
         <div id="topBarItemsRight">
@@ -52,17 +49,18 @@ const Navbar = () => {
       </div>
       <div id="nav">
         <div id="items">
-          <div className="titleItem"> 
-          <a href="/home" className="titleItem"> 
-            BER<div id="xMarksTheSpot">X</div>Y
-          </a>
-          </div> 
+          <div className="titleItem">
+            <a href="/home" className="titleItem">
+              BER<div id="xMarksTheSpot">X</div>Y
+            </a>
+          </div>
           <div id="navigate">
             <a className="nav-item" href="/collection">
               COLLECTION
             </a>
             <a className="nav-item" href="/cart">
-              CART  <UilShoppingCart id="cartIcon" size={30}/><span id="cartNumber">{cartNumber}</span> 
+              CART <UilShoppingCart id="cartIcon" size={30} />
+              <span id="cartNumber">{cartNumber}</span>
             </a>
           </div>
         </div>

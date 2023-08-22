@@ -1,6 +1,5 @@
 import React from "react";
 import "./style.css";
-import Button1 from "./assets/Button1.png";
 import Video from "./assets/video.mp4";
 
 const LearnMore = () => {

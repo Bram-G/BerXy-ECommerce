@@ -1,8 +1,6 @@
 import React from "react";
 import "./style.css";
-import Watch3 from "./assets/Watch3.png";
-import AddToCart from "./assets/AddToCart.png";
-import { useState, useEffect } from "react";
+import { useState} from "react";
 
 const Minicard = (props) => {
   

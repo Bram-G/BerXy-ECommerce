@@ -10,8 +10,6 @@ function Cart() {
   const [cartTax, setCartTax] = useState(0);
   const [cartTotal, setCartTotal] = useState(0);
 
-  var cartArray = [];
-  var priceArray = [];
 
   function handleCheckout() {
     alert("This is a demo ecommerce site. No purchases can be made.")
@@ -61,18 +59,8 @@ function Cart() {
   }
 
   useEffect(() => {
-    // const getCartWatches = async () => {
-    //     try {
-
-    //         // console.log(cartWatches);
-    //         setCartWatches(cartWatches);
-    //     } catch (error) {
-    //         console.log(error);
-    //     }
-    // };
-    // getCartWatches();
     processLocalStorageData();
-  }, []);
+  }, [processLocalStorageData]);
 
   return (
     <div id="cartPage">

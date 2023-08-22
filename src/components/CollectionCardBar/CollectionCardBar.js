@@ -17,7 +17,7 @@ const CollectionCardBar = (props) => {
       }
     };
     getWatchesByBrand();
-  }, []);
+  }, [props.brand]);
 
 
   return (
