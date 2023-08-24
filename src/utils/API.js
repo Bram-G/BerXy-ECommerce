@@ -1,4 +1,4 @@
-const URL_PREFIX = "http://localhost:3001/"
+const URL_PREFIX = "https://berxyapi-0e327b64145c.herokuapp.com/"
 
 const API = {
     getAllWatches: () => {
