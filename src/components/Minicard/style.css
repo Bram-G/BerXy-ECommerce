@@ -79,3 +79,27 @@ line-height: normal;
   opacity: 0.9;
   scale: 1.02;
 }
+
+
+@media screen and (max-width:1400px){
+    #minicardContainer{
+        
+        margin-top: 20px;
+    }
+
+}
+
+@media screen and (max-width:1070px){
+    .cardBarCard{
+        justify-content: center;
+        
+    }
+
+}
+@media screen and (max-width:800px){
+    .cardBarCard{
+        justify-content: center;
+    }
+
+
+}

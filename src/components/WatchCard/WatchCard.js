@@ -1,4 +1,4 @@
-import { React, useEffect, useState } from "react";
+  import { React, useEffect, useState } from "react";
 import "./style.css";
 import CardBar from "../CardBar/CardBar";
 import ReactImageMagnify from "react-image-magnify";

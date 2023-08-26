@@ -10,15 +10,15 @@
 .spotlightElipse{
     position: absolute;
     scale: 80%;
-    left: 4rem;
+    left: 10rem;
 }
 .spotlightWatch{
     height: 500px;
     width: 430px;
     position: absolute;
     scale: 80%;
-    left: 8.5rem;
-    top: 10.5rem;
+    left: 14.5rem;
+    top: 8.5rem;
 }
 #mottoText{
     color: #000;
@@ -40,7 +40,7 @@ line-height: normal;
 
 }
 
-@media screen and (max-width:1280px){
+@media screen and (max-width:1500px){
     #spotlightImage{
         width: 20%;
         display: none;
@@ -49,5 +49,28 @@ line-height: normal;
     #spotlightTextBox{
         justify-content: center;
         width: 100%;
+    }
+}
+
+@media screen and (max-width:1000px){
+    #mottoText{
+        font-size: 50px;
+    }
+    #mottoText2{
+        font-size: 80px;
+    }
+    #spotlightContainer{
+        height: 25rem;
+    }
+}
+@media screen and (max-width:600px){
+    #mottoText{
+        font-size: 30px;
+    }
+    #mottoText2{
+        font-size: 60px;
+    }
+    #spotlightContainer{
+        height: 25rem;
     }
 }

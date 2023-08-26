@@ -42,8 +42,9 @@ margin-bottom: 200px;
 
 #myVideo {
     object-fit: cover;
-min-height: 100%;
+max-height: 100%;
 min-width:100%;
+max-width: 100%;
 overflow: auto;
   }
   #buttonText{
@@ -61,3 +62,60 @@ overflow: auto;
     display: flex;
     align-items: center;   
   }
+
+  @media  only screen and (max-width: 1200px) {
+    #learnMoreTitle{
+        font-size: 60px;
+    }
+}
+@media  only screen and (max-width: 1100px) {
+#learnMoreContainer {
+    height: auto;
+}
+}
+
+  @media  only screen and (max-width: 900px) {
+    #learnMoreTitle{
+        font-size: 60px;
+    }
+}
+@media  only screen and (max-width: 768px) {
+    #learnMoreTitle{
+        font-size: 40px;
+        margin-bottom: 150px;
+    }
+    #buttonText{
+        font-size: 14px;
+    }
+    #learnMoreButton{
+        width: 120px;
+        height: 32px;
+        margin-top: 150px;
+    }
+}
+@media  only screen and (max-width: 600px) {
+    #learnMoreTitle{
+        font-size: 30px;
+        margin-bottom: 100px;
+    }
+    #learnMoreButton{
+        width: 120px;
+        height: 32px;
+        margin-top: 100px;
+    }
+}
+    @media  only screen and (max-width: 600px) {
+        #learnMoreTitle{
+            font-size: 20px;
+            margin-bottom: 80px;
+        }
+        #learnMoreButton{
+            width: 100px;
+            height: 22px;
+            margin-top: 80px;
+        }
+        #buttonText{
+            font-size: 12px;
+        }
+}
+    

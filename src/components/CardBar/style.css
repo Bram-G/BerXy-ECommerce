@@ -1,5 +1,12 @@
 .cardBarContainer{
-    margin: 0px 100px 50px 100px; 
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    
+}
+.cardBar{
+    display: flex;
+justify-content: center;
 }
 .cardBarTitle{
 font-family: Raleway;
@@ -12,13 +19,16 @@ margin-bottom: 50px ;
 .cardBarCard{
     display:flex;
     justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
 }
-@media screen and (max-width:1280px){
+
+@media  only screen and (max-width: 1070px) {
     .cardBarContainer{
-        margin: 0px;
-    }
-    .cardBarCard{
-        width: 50%;
+        align-items: center;
     }
 
+    .cardBarTitle{
+        font-size: 26px;
+    }
 }

@@ -17,4 +17,14 @@ margin-bottom: 20px ;
     margin: 10px;
     display:flex;
     justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+
+@media  only screen and (max-width: 1775px) {
+    .collectionCardBarCard{
+        justify-content: center;
+    }
+
 }

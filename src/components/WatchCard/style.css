@@ -92,3 +92,91 @@
   width: 160px;
   margin-left: 100px;
 }
+
+@media only screen and (max-width: 1360px) {
+  #watchCardContainer{
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  #moreImageCon{
+    flex-direction: row;
+  }   
+  #moreImage{
+    margin: 0px 20px 20px 0px;
+  }
+  #boxBreak{
+    display: none;
+  }
+  
+}
+@media only screen and (max-width:900px) {
+  #watchCardImgContainer{
+    width: 500px;
+  }
+  #addToCartw{
+    margin-top: 10px;
+  }
+  #watchCardDescription{
+    width: 100%;
+    height: 100%;
+  }
+  #infoContainer{
+    width: 100%;
+  }
+  
+}
+@media only screen and (max-width:500px) {
+  #watchCardImgContainer{
+    width: 500px;
+  }
+}
+@media only screen and (max-width:500px) {
+  #watchCardImgContainer{
+    width: 400px;
+    height: 100%;
+  }
+  #watchCardView{
+    width: 400px;
+    height: 100%;
+  }
+  #watchCardview{
+    width: 400px;
+    height: 100%;
+  }
+  #moreImage{
+    width: 100px;
+    height: 100px;
+  }
+  #title{
+    margin-left: 0px ;
+    width: 100%;
+  }
+  #watchCardDescription{
+    margin-left: 0px ;
+  }
+  #watchCardPrice{
+    margin-left: 0px ;
+  }
+  #watchCardBrand{
+    margin-left: 0px ;
+  }
+}
+
+@media only screen and (max-width:450px) {
+  #watchCardImgContainer{
+    width: 300px;
+  }
+  #moreImage{
+    width: 80px;
+    height: 80px;
+  }
+  #watchCardDescription{
+    font-size: 14px;
+  }
+  #addToCartw{
+    height: 32px;
+    width: 140px;
+    font-size: 16px;
+  }
+
+}

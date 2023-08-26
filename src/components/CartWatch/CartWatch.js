@@ -39,6 +39,8 @@ const CartWatch = (props) => {
       }
       
     return(
+      <div className="cartWatch">
+
         <div className="cartWatchContainer">
             <div className="cartWatchImgContainer">
                 <img className="cartWatchImg" src={props.mainImage} onClick={handleVisit} alt="cartWatchImg"></img>
@@ -56,6 +58,7 @@ const CartWatch = (props) => {
             </div>
             </div>
         </div>
+      </div>
     )
 }
 

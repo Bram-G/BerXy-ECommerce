@@ -19,21 +19,24 @@ const CardBar = () => {
     getManyRandomWatches();
   }, []);
   return (
+    <div className="cardBar">
+
     <div className="cardBarContainer">
       <div className="cardBarTitle">Reccomended For You</div>
       <div className="cardBarCard">
         {watchData.map((watch) => (
           <Minicard
-            key={watch._id}
-            id={watch._id}
-            name={watch.name}
-            price={watch.price}
-            mainImage={watch.mainImage}
-            image1={watch.image1}
+          key={watch._id}
+          id={watch._id}
+          name={watch.name}
+          price={watch.price}
+          mainImage={watch.mainImage}
+          image1={watch.image1}
           />
-        ))}
+          ))}
       </div>
     </div>
+          </div>
   );
 };
 

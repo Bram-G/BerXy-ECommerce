@@ -152,3 +152,34 @@ margin-left: 20px;
 
 }
 
+@media  only screen and (max-width: 900px) {
+  .listItemSettingTitle{
+      font-size: 20px;
+  }
+  .createdIcon{
+    margin: 0;
+  }
+  .containerTitle{
+      font-size: 20px;
+  }
+  .listItems{
+    font-size: 16px;
+  }
+}
+@media  only screen and (max-width: 500px) {
+  #bottomContainer{
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+  }
+  #leftContainer{
+    width: 100%;
+  }
+  #centerContainer{
+    width: 100%;
+  }
+  #rightContainer{
+    width: 100%;
+  }
+}
+
