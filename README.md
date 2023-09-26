@@ -18,7 +18,7 @@ https://github.com/Bram-G
 
     
 ## INSTALLATION
-No installation needed! just follow this link to the deployed application! (currently not deployed)
+No installation needed! just follow this link to the deployed application! HERE! (https://berxy.netlify.app/)
 
 If you want to run this on your local machine you would need to clone this repo, as well as the backend repo above(linked above). Then run ```NPM install``` , ```NPM start``` and change the ```URL_PREFIX ``` variable to whatever local port you have the API application running on. Don't forget to seed the database usin ```NPM run seed```.
     
